@@ -1,0 +1,12 @@
+phases:
+    install:
+        commands:
+            - echo Installing yarn...
+            - npm install --global yarn
+            - echo Run yarn dependencies...
+            - yarn
+    build:
+        commands:
+            - echo Build started on `date`
+             echo Run yarn Build started on `date` ...
+            - yarn build
