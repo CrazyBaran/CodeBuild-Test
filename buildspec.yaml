@@ -12,3 +12,8 @@ phases:
             - echo Build started on `date`
              echo Run yarn Build started on `date` ...
             - yarn build
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: dist/CdvProject
